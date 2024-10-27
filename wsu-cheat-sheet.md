@@ -6,40 +6,25 @@ JavaScript Cheat Sheet
 >
 > **TABLE OF CONTENTS**
 [JavaScript Basics 3](#javascript-basics)
-
 [Variables in JavaScript 3](#variables-in-javascript)
-
 [The Next Level: Arrays 4](#the-next-level-arrays)
-
 [Operators 5](#operators)
-
 [Functions 6](#functions)
-
 JavaScript Loop 7
-
 [If - Else Statements 8](#if---else-statements)
-
 [Strings 8](#strings)
-
 [Regular Expression Syntax 9](#regular-expression-syntax)
-
 [Numbers and Math 11](#numbers-and-math)
-
 [Dealing with Dates in JavaScript 13](#dealing-with-dates-in-javascript)
-
 [DOM Mode 14](#dom-mode)
-
 [Working with the User Browser 17](#working-with-the-user-browser)
-
 [JavaScript Events 19](#javascript-events)
 
 # JAVASCRIPT BASICS
 
 ## Including JavaScript in an HTML Page
 > \<script type=\"text/javascript\"\>
-
 //JS code goes here
-
 > \</script\>
 
 ## Call an External JavaScript File
@@ -65,18 +50,14 @@ JavaScript Loop 7
 
 ## Data Types
 > Numbers --- var age = 23 Variables --- var x
->
 > Text (strings) --- var a = \"init\" Operations --- var b = 1 + 2 + 3
->
 > True or fase statements --- var c = true Constant numbers --- const PI
 > = 3.14
->
 > Objects --- var name = {firstName:\"John\", lastName:"Doe\"}
 
 ## Objects
 > var person = { firstName:\"John\", lastName:\"Doe\", age:20,
 > nationality:\"German\"
->
 > **};**
 
 # THE NEXT LEVEL: ARRAYS
@@ -85,158 +66,97 @@ JavaScript Loop 7
 
 ## Array Methods
 > concat() --- Join several arrays into one
->
 > indexOf() --- Returns the primitive value of the specified object
->
-> join() --- Combine elements of an array into a single string and
-> return the string
->
-> lastIndexOf() --- Gives the last position at which a given element
-> appears in an array
->
-> pop() --- Removes the last element of an array push() --- Add a new
-> element at the end reverse() --- Sort elements in descending order
+> join() --- Combine elements of an array into a single string and return the string
+> lastIndexOf() --- Gives the last position at which a given element appears in an array
+> pop() --- Removes the last element of an array 
+> push() --- Add a new element at the end 
+> reverse() --- Sort elements in descending order
 > shift() --- Remove the first element of an array
->
 > slice() --- Pulls a copy of a portion of an array into a new array
->
 > sort() --- Sorts elements alphabetically
->
-> splice() --- Adds elements in a specified way and position toString()
-> --- Converts elements to strings
->
+> splice() --- Adds elements in a specified way and position 
+> toString() --- Converts elements to strings
 > unshift() --- Adds a new element to the beginning
->
-> valueOf() --- Returns the first position at which a given element
-> appears in an array
+> valueOf() --- Returns the first position at which a given element appears in an array
 
 # OPERATORS
 
 ## Basic Operators
 > \+ --- Addition
->
 > \- --- Subtraction
->
 > \* --- Multiplication
->
 > / --- Division
->
 > (\...) --- Grouping operator, operations within brackets are executed
 > earlier than those outside
->
 > \% --- Modulus (remainder )
->
 > ++ --- Increment numbers
->
 > \-- --- Decrement numbers
 
 ## Comparison Operators
 > == --- Equal to
->
 > === --- Equal value and equal type
->
 > != --- Not equal
->
 > !== --- Not equal value or not equal type
->
 > \> --- Greater than
->
 > \< --- Less than
->
 > \>= --- Greater than or equal to
->
 > \<= --- Less than or equal to
->
 > ? --- Ternary operator
 
 ## Logical Operators
 > && --- Logical and
->
 > \|\| --- Logical or
->
 > ! --- Logical not
 
 ## Bitwise Operators
 > & --- AND statement
->
 > \| --- OR statement
->
 > \~ --- NOT
->
 > \^ --- XOR
->
 > \<\< --- Left shift
->
 > \>\> --- Right shift
->
 > \>\>\> --- Zero fill right shift
 
 # FUNCTIONS
 
 > function name(parameter1, parameter2, parameter3) {
->
 > // what the function does
->
 > **}**
 
 ## Outputting Data
 > alert() --- Output data in an alert box in the browser window
->
-> confirm() --- Opens up a yes/no dialog and returns true/false
-> depending on user click
->
-> console.log() --- Writes information to the browser console, good for
-> debugging purposes
->
-> document.write() --- Write directly to the HTML document prompt() ---
-> Creates an dialogue for user input
+> confirm() --- Opens up a yes/no dialog and returns true/false depending on user click
+> console.log() --- Writes information to the browser console, good for debugging purposes
+> document.write() --- Write directly to the HTML document 
+> prompt() --- Creates an dialogue for user input
 
 ## Global Functions
-> decodeURI() --- Decodes a Uniform Resource Identifier (URI) created by
-> encodeURI or similar
->
-> decodeURIComponent() --- Decodes a URI component encodeURI() ---
-> Encodes a URI into UTF-8 encodeURIComponent() --- Same but for URI
-> components
->
+> decodeURI() --- Decodes a Uniform Resource Identifier (URI) created by encodeURI or similar
+> decodeURIComponent() --- Decodes a URI component 
+> encodeURI() --- Encodes a URI into UTF-8 
+> encodeURIComponent() --- Same but for URI components 
 > eval() --- Evaluates JavaScript code represented as a string
 > isFinite() --- Determines whether a passed value is a finite number
 > isNaN() --- Determines whether a value is NaN or not
->
 > Number() --- Returns a number converted from its argument
->
 > parseFloat() --- Parses an argument and returns a floating point
-> number parseInt() --- Parses its argument and returns an integer
->
-> **JAVASCRIPT LOOPS**
->
+> number parseInt() --- Parses its argument and returns an integer **JAVASCRIPT LOOPS**
 > for (before loop; condition for loop; execute after loop) {
->
-> // what to do during the loop
->
-> **}**
->
-> for --- The most common way to create a loop in JavaScript while ---
-> Sets up conditions under which aloop executes
->
+> // what to do during the loop **}**
+> for --- The most common way to create a loop in JavaScript 
+> while --- Sets up conditions under which aloop executes
 > do while --- Similar to the while loop, however, it executes at least
-> once and performs a check at the end to see if the condition is met to
-> execute again
->
+> once and performs a check at the end to see if the condition is met to execute again
 > break --- Used to stop and exit the cycle at certain conditions
 > continue --- Skip parts of the cycle if certain conditions are met
 
 # IF - ELSE STATEMENTS
 
 > if (condition) {
->
 > // what to do if condition is met
->
 > } else {
->
-> // what to do if condition is not met
->
-> **}**
+> // what to do if condition is not met **}**
 
 # STRINGS
 
@@ -244,207 +164,136 @@ JavaScript Loop 7
 
 ## Escape Characters
 > \\\' --- Single quote
->
 > \\\" --- Double quote
->
 > \\\\ --- Backslash
->
 > \\b --- Backspace
->
 > \\f --- Form feed
->
 > \\n --- New line
->
 > \\r --- Carriage return
->
 > \\t --- Horizontal tabulator
->
 > \\v --- Vertical tabulator
 
 ## String Methods
-> charAt() --- Returns a character at a specified position inside a
-> string
->
+> charAt() --- Returns a character at a specified position inside a string
 > charCodeAt() --- Gives you the unicode of character at that position
 > concat() --- Concatenates (joins) two or more strings into one
->
 > fromCharCode() --- Returns a string created from the specified
 > sequence of UTF-16 code units
->
-> indexOf() --- Provides the position of the first occurrence of a
-> specified text within a string
->
-> lastIndexOf() --- Same as indexOf() but with the last occurrence,
-> searching backwards
->
+> indexOf() --- Provides the position of the first occurrence of a specified text within a string
+> lastIndexOf() --- Same as indexOf() but with the last occurrence, searching backwards
 > match() --- Retrieves the matches of a string against a search pattern
 > replace() --- Find and replace specified text in a string
->
-> search() --- Executes a search for a matching text and returns its
-> position
->
-> slice() --- Extracts a section of a string and returns it as a new
-> string
->
-> split() --- Splits a string object into an array of strings at a
-> specified position
->
-> substr() --- Similar to slice() but extracts a substring depended on a
-> specified number of characters
->
-> substring() --- Also similar to slice() but can't accept negative
-> indices
->
-> toLowerCase() --- Convert strings to lower case toUpperCase() ---
-> Convert strings to upper case
->
-> valueOf() --- Returns the primitive value (that has no properties or
-> methods) of a string object
+> search() --- Executes a search for a matching text and returns its position
+> slice() --- Extracts a section of a string and returns it as a new string
+> split() --- Splits a string object into an array of strings at a specified position
+> substr() --- Similar to slice() but extracts a substring depended on a specified number of characters
+> substring() --- Also similar to slice() but can't accept negative indices
+> toLowerCase() --- Convert strings to lower case 
+> toUpperCase() --- Convert strings to upper case
+> valueOf() --- Returns the primitive value (that has no properties or methods) of a string object
 
 # REGULAR EXPRESSION SYNTAX
 
 ## Pattern Modifiers
 > e --- Evaluate replacement
->
-> i --- Perform case-insensitive matching g --- Perform global matching
->
+> i --- Perform case-insensitive matching 
+> g --- Perform global matching
 > m --- Perform multiple line matching
->
 > s --- Treat strings as single line
->
-> x --- Allow comments and whitespace in pattern U --- Ungreedy pattern
+> x --- Allow comments and whitespace in pattern 
+> U --- Ungreedy pattern
 
 ## Brackets
-> \[abc\] --- Find any of the characters between the brackets \[\^abc\]
-> --- Find any character not in the brackets
->
+> \[abc\] --- Find any of the characters between the brackets 
+> \[\^abc\] --- Find any character not in the brackets
 > \[0-9\] --- Used to find any digit from 0 to 9
->
 > \[A-z\] --- Find any character from uppercase A to lowercase z
 > (a\|b\|c) --- Find any of the alternatives separated with \|
 
 ## Metacharacters
 > . --- Find a single character, except newline or line terminator
->
 > \\w --- Word character
->
 > \\W --- Non-word character
->
 > \\d --- A digit
->
 > \\D --- A non-digit character
->
 > \\s --- Whitespace character
->
 > \\S --- Non-whitespace character
->
 > \\b --- Find a match at the beginning/end of a word
->
 > \\B --- A match not at the beginning/end of a word
->
 > \\0 --- NUL character
->
 > \\n --- A new line character
->
 > \\f --- Form feed character
->
 > \\r --- Carriage return character
->
 > \\t --- Tab character
->
 > \\v --- Vertical tab character
->
 > \\xxx --- The character specified by an octal number xxx
->
 > \\xdd --- Character specified by a hexadecimal number dd
->
 > \\uxxxx --- The Unicode character specified by a hexadecimal number
 > xxxx
 
 ## Quantifiers
 > n+ --- Matches any string that contains at least one n
->
-> n\* --- Any string that contains zero or more occurrences of n n? ---
-> A string that contains zero or one occurrences of n n{X} --- String
-> that contains a sequence of X n's
->
+> n\* --- Any string that contains zero or more occurrences of n 
+> n? --- A string that contains zero or one occurrences of n 
+> n{X} --- String that contains a sequence of X n's
 > n{X,Y} --- Strings that contains a sequence of X to Y n's
->
 > n{X,} --- Matches any string that contains a sequence of at least X
 > n's n\$ --- Any string with n at the end of it
->
 > \^n --- String with n at the beginning of it
->
 > ?=n --- Any string that is followed by a specific string n
->
 > ?!n --- String that is not followed by a specific string n
 
 # NUMBERS AND MATH
 
 ## Number Properties
 > MAX_VALUE --- The maximum numeric value representable in JavaScript
->
-> MIN_VALUE --- Smallest positive numeric value representable in
-> JavaScript
->
-> NaN --- The "Not-a-Number" value NEGATIVE_INFINITY --- The negative
-> Infinity value POSITIVE_INFINITY --- Positive Infinity value
+> MIN_VALUE --- Smallest positive numeric value representable in JavaScript
+> NaN --- The "Not-a-Number" value 
+> NEGATIVE_INFINITY --- The negative Infinity value 
+> POSITIVE_INFINITY --- Positive Infinity value
 
 ## Number Methods
-> toExponential() --- Returns a string with a rounded number written as
-> exponential notation
->
-> toFixed() --- Returns the string of a number with a specified number
-> of decimals
->
+> toExponential() --- Returns a string with a rounded number written as exponential notation
+> toFixed() --- Returns the string of a number with a specified number of decimals
 > toPrecision() --- String of a number written with a specified length
 > toString() --- Returns a number as a string
->
 > valueOf() --- Returns a number as a number
 
 ## Math Properties
 > E --- Euler's number
->
-> LN2 --- The natural logarithm of 2 LN10 --- Natural logarithm of 10
-> LOG2E --- Base 2 logarithm of E LOG10E --- Base 10 logarithm of E PI
-> --- The number PI
->
-> SQRT1_2 --- Square root of 1/2 SQRT2 --- The square root of 2
+> LN2 --- The natural logarithm of 2 
+> LN10 --- Natural logarithm of 10
+> LOG2E --- Base 2 logarithm of E 
+> LOG10E --- Base 10 logarithm of E 
+> PI --- The number PI
+> SQRT1_2 --- Square root of 1/2 
+> SQRT2 --- The square root of 2
 
 ## Math Methods
-> abs(x) --- Returns the absolute (positive) value of x acos(x) --- The
-> arccosine of x, in radians
->
+> abs(x) --- Returns the absolute (positive) value of x 
+> acos(x) --- The arccosine of x, in radians
 > asin(x) --- Arcsine of x, in radians
->
-> atan(x) --- The arctangent of x as a numeric value atan2(y,x) ---
-> Arctangent of the quotient of its arguments ceil(x) --- Value of x
-> rounded up to its nearest integer cos(x) --- The cosine of x (x is in
-> radians)
->
+> atan(x) --- The arctangent of x as a numeric value 
+> atan2(y,x) --- Arctangent of the quotient of its arguments 
+> ceil(x) --- Value of x rounded up to its nearest integer 
+> cos(x) --- The cosine of x (x is in radians)
 > exp(x) --- Value of Ex
->
-> floor(x) --- The value of x rounded down to its nearest integer log(x)
-> --- The natural logarithm (base E) of x
->
+> floor(x) --- The value of x rounded down to its nearest integer 
+> log(x) --- The natural logarithm (base E) of x
 > max(x,y,z,\...,n) --- Returns the number with the highest value
 > min(x,y,z,\...,n) --- Same for the number with the lowest value
 > pow(x,y) --- X to the power of y
->
-> random() --- Returns a random number between 0 and 1 round(x) --- The
-> value of x rounded to its nearest integer sin(x) --- The sine of x (x
-> is in radians)
->
-> sqrt(x) --- Square root of x tan(x) --- The tangent of an angle
+> random() --- Returns a random number between 0 and 1 
+> round(x) --- The value of x rounded to its nearest integer 
+> sin(x) --- The sine of x (x is in radians)
+> sqrt(x) --- Square root of x 
+> tan(x) --- The tangent of an angle
 
 # DEALING WITH DATES IN JAVASCRIPT
 
 ## Setting Dates
 > Date() --- Creates a new date object with the current date and time
-> Date(2017, 5, 21, 3, 23, 10, 0) --- Create a custom date object. The
-> numbers represent year, month, day, hour, minutes, seconds,
-> milliseconds. You can omit anything you want except for year and
-> month.
+> Date(2017, 5, 21, 3, 23, 10, 0) --- Create a custom date object. The numbers represent year, month, day, hour, minutes, seconds, milliseconds. You can omit anything you want except for year and month.
 > Date(\"2017-06-23\") --- Date declaration as a string
 
 ## Pulling Date and Time Values
