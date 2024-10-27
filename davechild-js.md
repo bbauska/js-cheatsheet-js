@@ -1,4 +1,4 @@
-> ![](./images/media/image2.jpeg){width="0.6in"
+> ![image001.jpeg](./images/image001.jpeg){width="0.6in"
 > height="0.5999989063867016in"}By **Dave Child** (DaveChild)
 > [cheatography.com/davechild/](http://www.cheatography.com/davechild/)
 > [www.getpostcookie.com](http://www.getpostcookie.com/)
@@ -11,7 +11,7 @@
 > Everyone has a novel in them. Finish Yours!
 > [https://apollopad.com](https://apollopad.com/)
 >
-> ![](./images/media/image2.jpeg){width="0.6in"
+> ![image002.jpeg](./images/image002.jpeg){width="0.6in"
 > height="0.5999989063867016in"}By **Dave Child** (DaveChild)
 > [cheatography.com/davechild/](http://www.cheatography.com/davechild/)
 > [www.getpostcookie.com](http://www.getpostcookie.com/)
