@@ -19,48 +19,54 @@ JavaScript Loop 7
 [Working with the User Browser 17](#working-with-the-user-browser)
 [JavaScript Events 19](#javascript-events)
 
-# JAVASCRIPT BASICS
+## JAVASCRIPT BASICS
 
-## Including JavaScript in an HTML Page
+### Including JavaScript in an HTML Page
   - \<script type=\"text/javascript\"\>
 //JS code goes here
   - \</script\>
 
-## Call an External JavaScript File
+### Call an External JavaScript File
   - \<script src=\"myscript.js\"\>\</script\>\<code\>\</code\>
 
-## Including Comments
+### Including Comments
   - Single line comments - //
   - Multi-line comments - /\* comment here \*/
 
-# VARIABLES IN JAVASCRIPT
+## VARIABLES
 
-## var, const, let
-  - var --- The most common variable. Can be reassigned but only accessed
-  - within a function. Variables defined with var move to the top when
-  - code is executed.
-  - const --- Can not be reassigned and not accessible before they appear
-  - within the code.
-  - let --- Similar to const, however, let variable can be reassigned but
-  - not re-declared.
+### var, const, let
+  - var --- The most common variable. Can be reassigned but only accessed within a function. Variables defined with var move to the top when code is executed.
+  - const --- Can not be reassigned and not accessible before they appear within the code.
+  - let --- Similar to const, however, let variable can be reassigned but not re-declared.
 
-## Data Types
-  - Numbers --- var age = 23 Variables --- var x
-  - Text (strings) --- var a = \"init\" Operations --- var b = 1 + 2 + 3
-  - True or fase statements --- var c = true Constant numbers --- const PI
-  - = 3.14
+### Data Types
+  - Numbers --- var age = 23 
+  - Variables --- var x
+  - Text (strings) --- var a = \"init\"
+  - Operations --- var b = 1 + 2 + 3
+  - True or false statements --- var c = true 
+  - Constant numbers --- const PI = 3.14
   - Objects --- var name = {firstName:\"John\", lastName:"Doe\"}
 
-## Objects
-  - var person = { firstName:\"John\", lastName:\"Doe\", age:20,
-  - nationality:\"German\"
-  - **};**
+### Objects
 
-# THE NEXT LEVEL: ARRAYS
+<pre>
+var person = { 
+  firstName:&quot;John&quot;, 
+  lastName:&quot;Doe&quot;, 
+  age:20,
+  nationality:&quot;German&quot;
+};
+</pre>
 
-  - var fruit = \[\"Banana\", \"Apple\", \"Pear\"\];
+## ARRAYS
 
-## Array Methods
+<pre>
+var fruit = &lbrack;&quot;Banana&quot;, &quot;Apple&quot;, &quot;Pear&quot;&rbrack;;
+</pre>
+
+### Array Methods
   - concat() --- Join several arrays into one
   - indexOf() --- Returns the primitive value of the specified object
   - join() --- Combine elements of an array into a single string and return the string
@@ -76,9 +82,9 @@ JavaScript Loop 7
   - unshift() --- Adds a new element to the beginning
   - valueOf() --- Returns the first position at which a given element appears in an array
 
-# OPERATORS
+## OPERATORS
 
-## Basic Operators
+### Basic Operators
   - \+ --- Addition
   - \- --- Subtraction
   - \* --- Multiplication
@@ -89,7 +95,7 @@ JavaScript Loop 7
   - ++ --- Increment numbers
   - \-- --- Decrement numbers
 
-## Comparison Operators
+### Comparison Operators
   - == --- Equal to
   - === --- Equal value and equal type
   - != --- Not equal
@@ -100,12 +106,12 @@ JavaScript Loop 7
   - \<= --- Less than or equal to
   - ? --- Ternary operator
 
-## Logical Operators
+### Logical Operators
   - && --- Logical and
   - \|\| --- Logical or
   - ! --- Logical not
 
-## Bitwise Operators
+### Bitwise Operators
   - & --- AND statement
   - \| --- OR statement
   - \~ --- NOT
@@ -114,20 +120,22 @@ JavaScript Loop 7
   - \>\  - --- Right shift
   - \>\>\  - --- Zero fill right shift
 
-# FUNCTIONS
+## FUNCTIONS
 
-  - function name(parameter1, parameter2, parameter3) {
-  - // what the function does
-  - **}**
+<pre>
+function name(parameter1, parameter2, parameter3) {
+  // what the function does
+}
+</pre>
 
-## Outputting Data
+### Outputting Data
   - alert() --- Output data in an alert box in the browser window
   - confirm() --- Opens up a yes/no dialog and returns true/false depending on user click
   - console.log() --- Writes information to the browser console, good for debugging purposes
   - document.write() --- Write directly to the HTML document 
   - prompt() --- Creates an dialogue for user input
 
-## Global Functions
+### Global Functions
   - decodeURI() --- Decodes a Uniform Resource Identifier (URI) created by encodeURI or similar
   - decodeURIComponent() --- Decodes a URI component 
   - encodeURI() --- Encodes a URI into UTF-8 
@@ -235,8 +243,7 @@ var person = \"John Doe\";
   - \\v --- Vertical tab character
   - \\xxx --- The character specified by an octal number xxx
   - \\xdd --- Character specified by a hexadecimal number dd
-  - \\uxxxx --- The Unicode character specified by a hexadecimal number
-  - xxxx
+  - \\uxxxx --- The Unicode character specified by a hexadecimal number xxxx
 
 ### Quantifiers
   - n+ --- Matches any string that contains at least one n
