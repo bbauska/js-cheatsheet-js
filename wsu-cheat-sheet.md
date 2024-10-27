@@ -137,28 +137,39 @@ JavaScript Loop 7
   - isNaN() --- Determines whether a value is NaN or not
   - Number() --- Returns a number converted from its argument
   - parseFloat() --- Parses an argument and returns a floating point
-  - number parseInt() --- Parses its argument and returns an integer **JAVASCRIPT LOOPS**
-  - for (before loop; condition for loop; execute after loop) {
-  - // what to do during the loop **}**
+  - number parseInt() --- Parses its argument and returns an integer **JAVASCRIPT 
+
+## LOOPS
+
+<pre>
+for (before loop; condition for loop; execute after loop) {
+  //what to do during the loop
+}
+</pre>
+
   - for --- The most common way to create a loop in JavaScript 
   - while --- Sets up conditions under which aloop executes
-  - do while --- Similar to the while loop, however, it executes at least
-  - once and performs a check at the end to see if the condition is met to execute again
+  - do while --- Similar to the while loop, however, it executes at least once and performs a check at the end to see if the condition is met to execute again
   - break --- Used to stop and exit the cycle at certain conditions
   - continue --- Skip parts of the cycle if certain conditions are met
 
-# IF - ELSE STATEMENTS
+## IF - ELSE STATEMENTS
 
-  - if (condition) {
-  - // what to do if condition is met
-  - } else {
-  - // what to do if condition is not met **}**
+<pre>
+if (condition) {
+  // what to do if condition is met
+} else {
+  // what to do if condition is not met
+}
+</pre>
 
-# STRINGS
+## STRINGS
 
-  - var person = \"John Doe\";
+<pre>
+var person = \"John Doe\";
+</pre>
 
-## Escape Characters
+### Escape Characters
   - \\\' --- Single quote
   - \\\" --- Double quote
   - \\\\ --- Backslash
@@ -169,7 +180,7 @@ JavaScript Loop 7
   - \\t --- Horizontal tabulator
   - \\v --- Vertical tabulator
 
-## String Methods
+### String Methods
   - charAt() --- Returns a character at a specified position inside a string
   - charCodeAt() --- Gives you the unicode of character at that position
   - concat() --- Concatenates (joins) two or more strings into one
@@ -188,9 +199,9 @@ JavaScript Loop 7
   - toUpperCase() --- Convert strings to upper case
   - valueOf() --- Returns the primitive value (that has no properties or methods) of a string object
 
-# REGULAR EXPRESSION SYNTAX
+## REGULAR EXPRESSION SYNTAX
 
-## Pattern Modifiers
+### Pattern Modifiers
   - e --- Evaluate replacement
   - i --- Perform case-insensitive matching 
   - g --- Perform global matching
@@ -199,14 +210,14 @@ JavaScript Loop 7
   - x --- Allow comments and whitespace in pattern 
   - U --- Ungreedy pattern
 
-## Brackets
+### Brackets
   - \[abc\] --- Find any of the characters between the brackets 
   - \[\^abc\] --- Find any character not in the brackets
   - \[0-9\] --- Used to find any digit from 0 to 9
   - \[A-z\] --- Find any character from uppercase A to lowercase z
   - (a\|b\|c) --- Find any of the alternatives separated with \|
 
-## Metacharacters
+### Metacharacters
   - . --- Find a single character, except newline or line terminator
   - \\w --- Word character
   - \\W --- Non-word character
@@ -227,7 +238,7 @@ JavaScript Loop 7
   - \\uxxxx --- The Unicode character specified by a hexadecimal number
   - xxxx
 
-## Quantifiers
+### Quantifiers
   - n+ --- Matches any string that contains at least one n
   - n\* --- Any string that contains zero or more occurrences of n 
   - n? --- A string that contains zero or one occurrences of n 
@@ -239,23 +250,23 @@ JavaScript Loop 7
   - ?=n --- Any string that is followed by a specific string n
   - ?!n --- String that is not followed by a specific string n
 
-# NUMBERS AND MATH
+## NUMBERS AND MATH
 
-## Number Properties
+### Number Properties
   - MAX_VALUE --- The maximum numeric value representable in JavaScript
   - MIN_VALUE --- Smallest positive numeric value representable in JavaScript
   - NaN --- The "Not-a-Number" value 
   - NEGATIVE_INFINITY --- The negative Infinity value 
   - POSITIVE_INFINITY --- Positive Infinity value
 
-## Number Methods
+### Number Methods
   - toExponential() --- Returns a string with a rounded number written as exponential notation
   - toFixed() --- Returns the string of a number with a specified number of decimals
   - toPrecision() --- String of a number written with a specified length
   - toString() --- Returns a number as a string
   - valueOf() --- Returns a number as a number
 
-## Math Properties
+### Math Properties
   - E --- Euler's number
   - LN2 --- The natural logarithm of 2 
   - LN10 --- Natural logarithm of 10
@@ -265,7 +276,7 @@ JavaScript Loop 7
   - SQRT1_2 --- Square root of 1/2 
   - SQRT2 --- The square root of 2
 
-## Math Methods
+### Math Methods
   - abs(x) --- Returns the absolute (positive) value of x 
   - acos(x) --- The arccosine of x, in radians
   - asin(x) --- Arcsine of x, in radians
@@ -285,14 +296,14 @@ JavaScript Loop 7
   - sqrt(x) --- Square root of x 
   - tan(x) --- The tangent of an angle
 
-# DEALING WITH DATES IN JAVASCRIPT
+## DEALING WITH DATES IN JAVASCRIPT
 
-## Setting Dates
+### Setting Dates
   - Date() --- Creates a new date object with the current date and time
   - Date(2017, 5, 21, 3, 23, 10, 0) --- Create a custom date object. The numbers represent year, month, day, hour, minutes, seconds, milliseconds. You can omit anything you want except for year and month.
   - Date(\"2017-06-23\") --- Date declaration as a string
 
-## Pulling Date and Time Values
+### Pulling Date and Time Values
   - getDate() --- Get the day of the month as a number (1-31)
   - getDay() --- The weekday as a number (0-6)
   - getFullYear() --- Year as a four digit number (yyyy)
@@ -306,7 +317,7 @@ JavaScript Loop 7
   - according to universal time (also available for day, month, fullyear, hours, minutes etc.)
   - parse --- Parses a string representation of a date, and returns the number of milliseconds since January 1, 1970
 
-## Set Part of a Date
+### Set Part of a Date
   - setDate() --- Set the day as a number (1-31)
   - setFullYear() --- Sets the year (optionally month and day)
   - setHours() --- Set the hour (0-23)
@@ -319,9 +330,9 @@ JavaScript Loop 7
   - according to universal time (also available for day, month, fullyear,
   - hours, minutes etc.)
 
-# DOM MODE
+## DOM MODE
 
-## Node Properties
+### Node Properties
   - attributes --- Returns a live collection of all attributes registered to and element
   - baseURI --- Provides the absolute base URL of an HTML element
   - childNodes --- Gives a collection of an element's child nodes
@@ -336,7 +347,7 @@ JavaScript Loop 7
   - previousSibling --- Returns the node immediately preceding the current one
   - textContent --- Sets or returns the textual content of a node and its descendants
 
-## Node Methods
+### Node Methods
   - appendChild() --- Adds a new child node to an element as the last child node
   - cloneNode() --- Clones an HTML element
   - compareDocumentPosition() --- Compares the document position of two elements
@@ -354,7 +365,7 @@ JavaScript Loop 7
   - removeChild() --- Removes a child node from an element
   - replaceChild() --- Replaces a child node in an element
 
-## Element Methods
+### Element Methods
   - getAttribute() --- Returns the specified attribute value of an element node
   - getAttributeNS() --- Returns string value of the attribute with the specified namespace and name
   - getAttributeNode() --- Gets the specified attribute node
@@ -371,17 +382,17 @@ JavaScript Loop 7
   - setAttributeNode() --- Sets or changes the specified attribute node
   - setAttributeNodeNS() --- Adds a new namespaced attribute node to an element
 
-# WORKING WITH THE BROWSER
+## WORKING WITH THE BROWSER
 
-## Window Properties
+### Window Properties
   - closed --- Checks whether a window has been closed or not and returns true or false
   - defaultStatus --- Sets or returns the default text in the statusbar of a window
   - document --- Returns the document object for the window
-  - frames --- Returns all \<iframe\  - elements in the current window
+  - frames --- Returns all \<iframe\>  - elements in the current window
   - history --- Provides the History object for the window
   - innerHeight --- The inner height of a window's content area
   - innerWidth --- The inner width of the content area
-  - length --- Find out the number of \<iframe\  - elements in the window
+  - length --- Find out the number of \<iframe\>  - elements in the window
   - location --- Returns the location object for the window
   - name --- Sets or returns the name of a window
   - navigator --- Returns the Navigator object for the window
@@ -400,7 +411,7 @@ JavaScript Loop 7
   - status --- Sets or returns the text in the statusbar of a window
   - top --- Returns the topmost browser window
 
-## Window Methods
+### Window Methods
   - alert() --- Displays an alert box with a message and an OK button
   - blur() --- Removes focus from the current window
   - clearInterval() --- Clears a timer set with setInterval()
@@ -421,7 +432,7 @@ JavaScript Loop 7
   - setTimeout() --- Calls a function or evaluates an expression after a specified interval
   - stop() --- Stops the window from loading
 
-## Screen Properties
+### Screen Properties
   - availHeight --- Returns the height of the screen (excluding the Windows Taskbar)
   - availWidth --- Returns the width of the screen (excluding the Windows Taskbar)
   - colorDepth --- Returns the bit depth of the color palette for displaying images
@@ -429,9 +440,9 @@ JavaScript Loop 7
   - pixelDepth --- The color resolution of the screen in bits per pixel
   - width --- The total width of the screen
 
-# JAVASCRIPT EVENTS
+## JAVASCRIPT EVENTS
 
-## Mouse
+### Mouse
   - onclick --- The event occurs when the user clicks on an element 
   - oncontextmenu --- User right-clicks on an element to open a context menu
   - ondblclick --- The user double-clicks on an element
@@ -443,12 +454,12 @@ JavaScript Loop 7
   - onmouseout --- User moves the mouse pointer out of an element or one of its children
   - onmouseup --- The user releases a mouse button while over an element
 
-## Keyboard
+### Keyboard
   - onkeydown --- When the user is pressing a key down
   - onkeypress --- The moment the user starts pressing a key
   - onkeyup --- The user releases a key
 
-## Frame
+### Frame
   - onabort --- The loading of a media is aborted
   - onbeforeunload --- Event occurs before the document is about to be unloaded
   - onerror --- An error occurs while loading an external file
@@ -460,7 +471,7 @@ JavaScript Loop 7
   - onscroll --- An element's scrollbar is being scrolled
   - onunload --- Event occurs when a page has unloaded
 
-## Form
+### Form
   - onblur --- When an element loses focus
   - onchange --- The content of a form element changes (for \<input\>, \<select\>and \<textarea\>)
   - onfocus --- An element gets focus
@@ -469,11 +480,11 @@ JavaScript Loop 7
   - oninput --- User input on an element
   - oninvalid --- An element is invalid
   - onreset --- A form is reset
-  - onsearch --- The user writes something in a search field (for \<input=\"search\"\>)
-  - onselect --- The user selects some text (for \<input\  - and \<textarea\>)
+  - onsearch --- The user writes something in a search field (for \<input=\>"search\"\>)
+  - onselect --- The user selects some text (for \<input\>  - and \<textarea\>)
   - onsubmit --- A form is submitted
 
-## Drag
+### Drag
   - ondrag --- An element is dragged 
   - ondragend --- The user has finished dragging the element
   - ondragenter --- The dragged element enters a drop target
@@ -482,12 +493,12 @@ JavaScript Loop 7
   - ondragstart --- User starts to drag an element
   - ondrop --- Dragged element is dropped on the drop target
 
-## Clipboard
+### Clipboard
   - oncopy --- User copies the content of an element
   - oncut --- The user cuts an element's content
   - onpaste --- A user pastes content in an element
 
-## Media
+### Media
   - onabort --- Media loading is aborted
   - oncanplay --- The browser can start playing media (e.g. a file has buffered enough)
   - oncanplaythrough --- When browser can play through media without stopping
@@ -496,8 +507,8 @@ JavaScript Loop 7
   - onerror --- Happens when an error occurs while loading an external
   - file onloadeddata --- Media data is loaded
   - onloadedmetadata --- Meta data (like dimensions and duration) are loaded
-  - onloadstart --- Browser starts looking for specified media onpause ---
-  - Media is paused either by the user or automatically
+  - onloadstart --- Browser starts looking for specified media 
+  - onpause --- Media is paused either by the user or automatically
   - onplay --- The media has been started or is no longer paused
   - onplaying --- Media is playing after having been paused or stopped for buffering
   - onprogress --- Browser is in the process of downloading the media
@@ -510,33 +521,33 @@ JavaScript Loop 7
   - onvolumechange --- Media volume has changed (including mute)
   - onwaiting --- Media paused but expected to resume (for example, buffering)
 
-## Animation
+### Animation
   - animationend --- A CSS animation is complete
   - animationiteration --- CSS animation is repeated
   - animationstart --- CSS animation has started
 
-## Other
+### Other
   - transitionend --- Fired when a CSS transition has completed
   - onmessage --- A message is received through the event source
   - onoffline --- Browser starts to work offline
   - ononline --- The browser starts to work online
   - onpopstate --- When the window's history changes
-  - onshow --- A \<menu\  - element is shown as a context menu
+  - onshow --- A \<menu\>  - element is shown as a context menu
   - onstorage --- A Web Storage area is updated 
-  - ontoggle --- The user opens or closes the \<details\  - element
+  - ontoggle --- The user opens or closes the \<details\>  - element
   - onwheel --- Mouse wheel rolls up or down over an element
   - ontouchcancel --- Screen touch is interrupted 
   - ontouchend --- User finger is removed from a touch screen
   - ontouchmove --- A finger is dragged across the screen
   - ontouchstart --- Finger is placed on touch screen
 
-## Errors
+### Errors
   - try --- Lets you define a block of code to test for errors
   - catch --- Set up a block of code to execute in case of an error
   - throw --- Create custom error messages instead of the standard JavaScript errors
   - finally --- Lets you execute code, after try and catch, regardless of the result
 
-## Error Name Values
+### Error Name Values
   - name --- Sets or returns the error name
   - message --- Sets or returns an error message in string from
   - EvalError --- An error has occurred in the eval() function
