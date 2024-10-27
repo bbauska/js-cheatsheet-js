@@ -320,8 +320,7 @@ var person = \"John Doe\";
   - getMonth() --- Month as a number (0-11)
   - getSeconds() --- Get the second (0-59)
   - getTime() --- Get the milliseconds since January 1, 1970
-  - getUTCDate() --- The day (date) of the month in the specified date
-  - according to universal time (also available for day, month, fullyear, hours, minutes etc.)
+  - getUTCDate() --- The day (date) of the month in the specified date according to universal time (also available for day, month, fullyear, hours, minutes etc.)
   - parse --- Parses a string representation of a date, and returns the number of milliseconds since January 1, 1970
 
 ### Set Part of a Date
@@ -333,9 +332,7 @@ var person = \"John Doe\";
   - setMonth() --- Set the month (0-11)
   - setSeconds() --- Sets the seconds (0-59)
   - setTime() --- Set the time (milliseconds since January 1, 1970)
-  - setUTCDate() --- Sets the day of the month for a specified date
-  - according to universal time (also available for day, month, fullyear,
-  - hours, minutes etc.)
+  - setUTCDate() --- Sets the day of the month for a specified date according to universal time (also available for day, month, fullyear, hours, minutes etc.)
 
 ## DOM MODE
 
